@@ -47,16 +47,9 @@ console.log(maxMin([10,20,30,40],[111,11,1,-111]));
 
 // KATA 5 8kyu #34
 // https://www.codewars.com/kata/5733f948d780e27df6000e33
-//vol is vol of cube
-//cut cube into n block determine whether length of cube is integer. return true or false
 const cutCube = (vol, n) => !(Math.cbrt(n) % 1) && !(Math.cbrt(vol/n) % 1);
 
 console.log(cutCube(27,27) );
 console.log(cutCube(512,8));
 console.log(cutCube(256,8));
 console.log(cutCube(50000,50));
-
-
-////THE LIST OF TRAINING
-// https://www.codewars.com/kata/5722b3f0bd5583cf44001000/train/javascript
-
